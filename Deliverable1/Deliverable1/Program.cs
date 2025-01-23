@@ -1,4 +1,4 @@
-﻿﻿Console.WriteLine("Welcome to the restocking tool.\n");
+﻿﻿﻿Console.WriteLine("Welcome to the restocking tool.\n");
 
 int sodaStock = 100;
 int sodaRestock = 40;
