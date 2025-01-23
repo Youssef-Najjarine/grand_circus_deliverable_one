@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Welcome to the restocking tool.\n");
+﻿﻿Console.WriteLine("Welcome to the restocking tool.\n");
 
 int sodaStock = 100;
 int sodaRestock = 40;
@@ -38,10 +38,6 @@ if (amountSold > candyStock)
     candyStock -= amountSold;
     Console.WriteLine($"There are {candyStock} Candy left\n");
 }
-
-
-
-
 
 string restockMessage = "Nothing";
 if (sodaStock <= sodaRestock) {
